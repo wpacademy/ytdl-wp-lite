@@ -1,0 +1,273 @@
+.ytdlp-container {
+    max-width: 800px;
+    margin: 40px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.ytdlp-wrapper {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ytdlp-title {
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.ytdlp-input-section {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.ytdlp-input {
+    flex: 1;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.ytdlp-input:focus {
+    border-color: #4a90e2;
+}
+
+.ytdlp-btn {
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.ytdlp-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.ytdlp-btn-primary {
+    background: #4a90e2;
+    color: white;
+}
+
+.ytdlp-btn-primary:hover:not(:disabled) {
+    background: #357abd;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.3);
+}
+
+.ytdlp-btn-success {
+    background: #5cb85c;
+    color: white;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.ytdlp-btn-success:hover:not(:disabled) {
+    background: #449d44;
+}
+
+.ytdlp-btn-download {
+    background: #f39c12;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 16px;
+}
+
+.ytdlp-btn-download:hover {
+    background: #e67e22;
+    color: white;
+}
+
+.ytdlp-btn-icon {
+    margin-right: 8px;
+}
+
+.ytdlp-messages {
+    margin-bottom: 16px;
+}
+
+.ytdlp-message {
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.ytdlp-message-error {
+    background: #fee;
+    color: #c33;
+    border: 1px solid #fcc;
+}
+
+.ytdlp-message-success {
+    background: #efe;
+    color: #3c3;
+    border: 1px solid #cfc;
+}
+
+.ytdlp-message-info {
+    background: #eef;
+    color: #33c;
+    border: 1px solid #ccf;
+}
+
+.ytdlp-video-info {
+    margin-top: 24px;
+    padding: 24px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.ytdlp-info-header {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.ytdlp-thumbnail {
+    width: 180px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.ytdlp-meta {
+    flex: 1;
+}
+
+.ytdlp-video-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 12px 0;
+    line-height: 1.4;
+}
+
+.ytdlp-video-meta {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.ytdlp-video-meta span {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.ytdlp-download-options {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 24px;
+}
+
+.ytdlp-download-options h4 {
+    margin: 0 0 16px 0;
+    color: #1a1a1a;
+    font-size: 18px;
+}
+
+.ytdlp-option-group {
+    margin-bottom: 16px;
+}
+
+.ytdlp-option-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.ytdlp-select {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.ytdlp-select:focus {
+    border-color: #4a90e2;
+}
+
+.ytdlp-progress {
+    text-align: center;
+    padding: 40px;
+}
+
+.ytdlp-spinner {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 16px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #4a90e2;
+    border-radius: 50%;
+    animation: ytdlp-spin 1s linear infinite;
+}
+
+@keyframes ytdlp-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.ytdlp-download-ready {
+    text-align: center;
+    padding: 40px;
+}
+
+.ytdlp-success-icon {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto 16px;
+    background: #5cb85c;
+    color: white;
+    font-size: 48px;
+    border-radius: 50%;
+}
+
+.ytdlp-file-info {
+    margin-top: 16px;
+    color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .ytdlp-wrapper {
+        padding: 24px 16px;
+    }
+    
+    .ytdlp-input-section {
+        flex-direction: column;
+    }
+    
+    .ytdlp-info-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .ytdlp-thumbnail {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+    
+    .ytdlp-title {
+        font-size: 24px;
+    }
+}
