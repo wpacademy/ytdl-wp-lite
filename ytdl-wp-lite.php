@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: YT-DLP Video Downloader
+ * Plugin Name: YTDLP WP - Lite
  * Plugin URI: https://github.com/wpacademy/yt-dlp-wordpress-plugin
  * Description: Download videos using yt-dlp with a simple backend and feature-rich frontend UI
  * Version: 1.0.0
