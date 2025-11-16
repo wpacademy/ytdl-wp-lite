@@ -2,6 +2,8 @@
 
 A simple and secure WordPress plugin that integrates yt-dlp for video downloading with a minimal backend settings page and feature-rich frontend UI.
 
+<img width="1200" height="630" alt="banner-1" src="https://github.com/user-attachments/assets/ec88a75e-315f-4c9b-a91a-fa243c15aaf6" />
+
 ## Features
 
 - **Simple Backend**: Minimal settings page for easy configuration
