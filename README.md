@@ -4,6 +4,11 @@ A simple and secure WordPress plugin that integrates yt-dlp for video downloadin
 
 <img width="1200" height="630" alt="banner-1" src="https://github.com/user-attachments/assets/ec88a75e-315f-4c9b-a91a-fa243c15aaf6" />
 
+# YTDLP-WP Pro Version
+## [Buy the premium version and unlock more features and improved downloading](https://msrbuilds.com/product/ytdlwp-pro/)
+<img width="1280" height="720" alt="banner" src="https://github.com/user-attachments/assets/aaebff57-1159-4763-af03-0173fa2131b3" />
+
+
 ## Features
 
 - **Simple Backend**: Minimal settings page for easy configuration
